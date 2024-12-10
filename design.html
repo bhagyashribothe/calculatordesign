@@ -2,9 +2,9 @@
     <head>
         <title>Calculator</title>
         <style>
-            .calculator{
+            .ctn{
                 height: 400px;
-                width: 250px;
+                width: 350px;
                 background-color:blueviolet;
                 margin: 20px auto;
                 border-radius: 10px;
@@ -13,12 +13,12 @@
             }
             .screen{
                 background-color: violet;
-                text-align: right;
+                text-align: center;
                 width: 220px;
-                display: block;
+                display: ruby-base;
                 margin: 0 auto;
                 font-size: 25px;
-                padding: 5PX 10PX;
+                padding: 10PX 5PX;
                 margin-bottom: 20px;
             }
             .buttons{
@@ -26,17 +26,17 @@
                 flex-direction: column;
                 height: 200px;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
             }
             .btn{
-                width: 50px;
+                width: 40px;
                 text-align: center;
                 padding:2px 0;
-                font-size: 20px;
+                font-size: 30px;
                 margin: 3px;
-                border: 1px soild black;
-                border-radius: 5px;
+                border: 2px soild black;
+                border-radius: 10px;
                 cursor: pointer;
             }
             .btn1{
@@ -47,7 +47,7 @@
         </style>
     </head>
     <body>
-        <div class="calculator">
+        <div class="ctn">
             <input type="text" value="0" class="screen">
             <div class="buttons">
                 <button class="btn">AC</button>
